@@ -1,5 +1,10 @@
-*{
+body{
     font-family:'Ubuntu', sans-serif;
+    background-color: #f1f6f9;
+}
+
+#hero{
+    background-image: url('/assets/img/bg_hero.png');
 }
 
 .bg-oscuro{
