@@ -1,11 +1,21 @@
 *{
     font-family:'Ubuntu', sans-serif;
-
 }
 
-.bg-lila{
-    background-color: #001866;
+.bg-oscuro{
+    background-color: #14274e;
     color: #dde00c;
+}
+
+.navboton{
+    width: 100px;
+    text-align: center;
+    background-color: #3d84a8;
+    text-decoration: #dde00c;
+}
+
+.navbar-brand img{
+    width: 100px;
 }
 
 hr {
