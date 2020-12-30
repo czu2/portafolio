@@ -66,9 +66,7 @@ footer img {
     height: 40px;
 }
 
-#experience img{
-    width: 25%;
-}
+
 
 .carousel-indicators {
     bottom: -50px;
@@ -82,6 +80,6 @@ footer img {
 }
 
 .carousel .carousel-item img {
-    width: 25%;
+    width: 250px;
     max-height: 300px;
 }
