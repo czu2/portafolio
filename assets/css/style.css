@@ -1,0 +1,15 @@
+*{
+    font-family:'Ubuntu', sans-serif;
+
+}
+
+.bg-lila{
+    background-color: #001866;
+    color: #dde00c;
+}
+
+hr {
+    height: 0.05rem;
+    width: 10%;
+    background-color: #ffffff;
+}
