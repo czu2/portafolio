@@ -11,11 +11,11 @@ body{
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     padding: 6.25rem 3.125rem;
     height: 600px;
     text-align:center;
     color: #ffffff;
-vertical-align: bottom;
 }
 
 .logo{
