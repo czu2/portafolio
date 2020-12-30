@@ -15,10 +15,12 @@ body{
     height: 600px;
     text-align:center;
     color: #ffffff;
+vertical-align: bottom;
 }
 
 .logo{
-    width: 50px;
+    margin-left: 50px;
+    width: 40px;
 }
 
 .bg-oscuro{
@@ -29,8 +31,7 @@ body{
 .navboton{
     width: 100px;
     height: 30px;
-    text-align:justify
-    /*background-color: #3d84a8;*/
+    text-align:center;
 }
 
 .navbar-brand img{
@@ -53,7 +54,17 @@ body{
     color: black;
 }
 
-.card img{
-    width: 316px;
-    height: 180;
+.icono{
+    color:#ffffff;
+}
+.icono:hover {
+    transform: scale(1.1);
+}
+
+footer img {
+    width: 200px;
+}
+
+#experience img{
+    width: 30%;
 }
