@@ -11,9 +11,8 @@ body{
     background-image: url('../img/bg_hero.png');
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: 0.125em 0.25em 0.125em #707070;
     padding: 6.25rem 3.125rem;
-    height: 500px;
+    height: 600px;
     text-align:center;
     color: #ffffff;
 }
@@ -29,12 +28,13 @@ body{
 
 .navboton{
     width: 100px;
-    text-align: center;
-    background-color: #3d84a8;
+    height: 30px;
+    text-align:justify
+    /*background-color: #3d84a8;*/
 }
 
 .navbar-brand img{
-    width: 100px;
+    width: 70px;
 }
 
 .hr_white{
@@ -47,4 +47,13 @@ body{
     height: 0.2rem;
     width: 7rem;
     background-color: #212529;
+}
+
+.card{
+    color: black;
+}
+
+.card img{
+    width: 316px;
+    height: 180;
 }
