@@ -61,6 +61,12 @@ body{
     background-color: #212529;
 }
 
+.hr_blue{
+    height: 0.2rem;
+    width: 13rem;
+    background-color: #3C6997;
+}
+
 .card{
     color: black;
 }
