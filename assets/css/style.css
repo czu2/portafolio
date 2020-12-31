@@ -20,7 +20,7 @@ body{
 .card_header  {
     font-family: 'Yellowtail' , sans-serif;
     font-size: 200;
-    color:#14274e;
+    color:#3C6997;
 }
 
 .hero-section{
@@ -35,7 +35,7 @@ body{
 }
 
 .bg-oscuro{
-    background-color: #14274e;
+    background-color: #3C6997;
     color:#ffffff;
 }
 
