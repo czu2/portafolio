@@ -5,6 +5,7 @@
         
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/css/style.css">
         
@@ -13,18 +14,16 @@
 
     <body>
         <header> 
-            <nav class="navbar navbar-expand-sm navbar-dark bg-oscuro fixed-top pb-3">
+            <nav class="navbar navbar-expand-sm navbar-dark bg-oscuro fixed-top">
                 <div class="container-fluid text-sm-center">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="assets/img/cz_logo.png" class="logo" alt="CZ-Logo">
-                    </a>
+                    <a class="navbar-brand text-center pl-5" href="index.html">Cristian Zúñiga</a>
                 </div>
           
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 
-                <div class="collapse navbar-collapse bg-oscuro p-2" id="navbarNavAltMarkup">
+                <div class="collapse navbar-collapse bg-oscuro" id="navbarNavAltMarkup">
                     <div class="navbar-nav ml-auto align-text-top">
                         <a class="nav-link  rounded mr-3 navboton" href="#about">Sobre mi</a>
                         <a class="nav-link  rounded mr-3 navboton" href="#experience">Experiencia</a>
@@ -38,15 +37,16 @@
             <section class="hero-section container-fluid pt-5 pb-3">
                 <div class="container-fluid pt-5">
                     <div class="card mb-3 container-fluid border-0 bg-color text-white" style="max-width: 60rem;">
-                        <div class="row no-gutters border">
-                            <div class="col-md-6">
-                                <img src="assets/img/CZ.jpg" class="card-img" alt="pizza">
+                        <div class="row no-gutters ">
+                            <div class="col-md-6 pt-5">
+                                <img src="assets/img/CZ.jpg" class="card-img" alt="pizza" data-toggle="tooltip"
+                                data-placement="right" title="#UnAsaito">
                             </div>
                             <div class="col-md-6 text-center d-flex align-items-center">
-                                <div class="card-body ">
-                                    <h3 class="card-text">Yo soy</h3><br><br>
-                                    <hr class="hr_white"><br><br>
-                                    <h1 class="card-title">CRISTIAN ZÚÑIGA VERGARA</h1>
+                                <div class="card_header card-body">
+                                    <h3 class="card-text">Yo soy</h3>
+                                    <hr class="hr_white">
+                                    <h1 class="card-title">Cristian Zúñiga Vergara</h1>
                                 </div>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
             <h2 class="text-center pt-5">MI EXPERIENCIA</h2>
             <hr class="hr_black mb-5">
 
-            <div class="container-fluid">
+            <div id="carousel_max" class="container-fluid">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -130,63 +130,69 @@
                 <h2 class="text-center mt-5 pt-5">MIS ÚLTIMOS TRABAJOS</h2>
                 <hr class="hr_white">
 
-                <div class="card-deck bg-oscuro mt-5">
+                <div class="card-deck container-fluid bg-oscuro mt-5">
             
-                    <div class="card" style="width: 18rem">
+                    <div class="card" style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="Meet & Coffee">
                         <img src="./assets/img/meet_coffee.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Meet & Coffee</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem">
+                    <div class="card" style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="Iguana Page">
                         <img src="./assets/img/iguana_page.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Iguana Page</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
         
-                    <div class="card"style="width: 18rem" >
+                    <div class="card"style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="Suricata">
                         <img src="./assets/img/suricata.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Suricata</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
                 </div>
             
-                <div class="card-deck bg-oscuro pt-1 pb-5">
+                <div class="card-deck container-fluid bg-oscuro pt-3 pb-5">
             
-                    <div class="card" style="width: 18rem">
+                    <div class="card" style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="Cuppon">
                         <img src="./assets/img/cuppon.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Cuppon</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
 
-                    <div class="card" style="width: 18rem">
+                    <div class="card" style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="Ricomida">
                         <img src="./assets/img/ricomida.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">Ricomida</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
         
-                    <div class="card"style="width: 18rem" >
+                    <div class="card"style="width: 15rem" data-toggle="tooltip"
+                    data-placement="right" title="DMark">
                         <img src="./assets/img/dmark.png" class="card-img-top border" alt="...">
                         <div class="card-body">
                             <h5 class="card-title font-weight-bold">DMark</h5>
-                            <p class="card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
+                            <p class="oculto card-text">Felis tincidunt vel risus lacus posuere dignissim habitasse sapien,</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section id="contact">
+        <section class="bg-color" id="contact">
             <h2 class="text-center pt-5">CONTACTO</h2>
             <hr class="hr_black">
             
@@ -207,13 +213,11 @@
                     } 
                 })()
             </script>
-
-
         </section>
 
         <!-- FOOTER -->
         <footer>
-            <div class="container-fluid pt-5 bg-oscuro">
+            <div class="container-fluid p-5 bg-oscuro">
                 <div class="container-fluid">
                     <div class="row">
                             <img src="assets/img/logo_footer.png" alt="CZ-Logo">
